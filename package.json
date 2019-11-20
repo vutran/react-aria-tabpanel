@@ -3,6 +3,7 @@
   "version": "4.4.0",
   "description": "A style- and markup-agnostic, React-powered Tab Panel component that fulfills the WAI-ARIA Design Pattern",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "demo-bundle": "browserify demo/js/demo.js -t babelify --extension=.jsx -o demo/demo-bundle.js",
     "demo-watch": "watchify demo/js/demo.js -t babelify -d --extension=.jsx -o demo/demo-bundle.js -v",
